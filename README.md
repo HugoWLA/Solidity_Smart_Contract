@@ -20,7 +20,27 @@ contract development.
 The following images are functions in use, please see image descriptions.
 
 ### The `setAccounts` function is used to define the authorized Ethereum adress used to withdraw funds from contract.
-![setAccounts](Execution_Results/mod20One.png)
+![setAccounts](Execution_Results/mod20zero.png)
 
 ### Transaction 1 : 1 ether was sent. The `contractBalance` function was used to verify funds where added to contract.
-![1 eth sent](Execution_Results/mod20two.png)
+![1 eth sent](Execution_Results/mod20One.png)
+
+### Transaction 2 : 10 ether was sent. The `contractBalance` function was used to verify funds where added to contract.
+![10 eth sent](Execution_Results/mod20Two.png)
+
+### Transaction 3 : 5 ether was sent. The `contractBalance` function was used to verify funds where added to contract.
+![5 eth sent](Execution_Results/mod20three.png)
+
+### Transaction 4 : 5 ether was withdrawn into `accountOne`. The `contractBalance` function was used to verify funds as well as the `lastToWithdraw` and `lastWithdrawAmount` functions to verify that the address and amount were correct.
+![5 eth withdraw](Execution_Results/mod20four.png)
+
+### Transaction 5 : 10 ether was withdrawn into `accountTwo`. The `contractBalance` function was used to verify funds as well as the `lastToWithdraw` and `lastWithdrawAmount` functions to verify that the address and amount were correct.
+![10 eth withdraw](Execution_Results/mod20five.png)
+
+# License
+[MIT](license)
+
+## Contributers
+Hugo Velazquez
+
+linkedin.com/in/hugoghvelazquez
